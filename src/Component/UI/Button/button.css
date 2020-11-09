@@ -1,0 +1,12 @@
+.Button{
+    margin-top: 1rem;
+    width: 40%;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: solid #cfeccf;
+    background-color: rgb(55, 81, 94);
+    color: rgb(208, 219, 221);
+    letter-spacing: 0.1rem;
+    font-family: 'Lobster', cursive;
+}

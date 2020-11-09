@@ -1,0 +1,34 @@
+.LoginForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction:column;
+    margin-top: 2rem;
+}
+
+.LoginForm h2{
+    margin-bottom: 1.5rem;
+    color: 	rgb(55, 81, 94);
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.5rem;
+
+}
+
+.LoginForm h3{
+    margin-bottom: 1.5rem;
+    color: 	rgb(55, 81, 94);
+    font-size: 0.9rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.1rem;
+
+}
+
+.LoginForm form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
