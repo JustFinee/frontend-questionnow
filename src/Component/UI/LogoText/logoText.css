@@ -1,4 +1,4 @@
-.LogoText{
+.LogoText {
     margin-bottom: 1.5rem;
     font-size: 4rem;
     font-family: 'Lobster', cursive;
@@ -6,7 +6,6 @@
     position: absolute;
     z-index: 100;
     left: 5%;
-    top: 0;
-    color: rgb(208, 219, 221);;
-
+    top: 0%;
+    color: rgb(208, 219, 221);
 }
