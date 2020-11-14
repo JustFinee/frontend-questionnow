@@ -1,8 +1,8 @@
 import React from "react";
 import "./logoText.css";
-const logoText = () => {
+const logoText = (props) => {
     return(
-        <h1 className="LogoText">Questionnow</h1>
+        <h1 className="LogoText">{props.text}</h1>
     )
 }
 

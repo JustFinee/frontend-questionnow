@@ -5,9 +5,11 @@
     justify-content: start;
     flex-direction:column;
     margin-top: 1rem;
+
 }
 
 .LoginForm h2{
+    margin-top: 5rem;
     margin-bottom: 1.5rem;
     color: 	rgb(55, 81, 94);
     font-size: 3rem;

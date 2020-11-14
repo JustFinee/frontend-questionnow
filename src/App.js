@@ -9,7 +9,7 @@ const App = () => {
     return (
         <BrowserRouter>
         <div className="App">
-            <LogoText/>
+            <LogoText text="Questionnow"/>
             <div className="blur"></div>
             <Landing/>
         </div>

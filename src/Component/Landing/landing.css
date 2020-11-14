@@ -1,36 +1,42 @@
-.Landing{
+.Landing {
     position: relative;
     width: 70%;
-    height: 60vh;
+    height: 68vh;
     margin: auto;
     background-color: white;
     border-radius: 25px;
     display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     position: absolute;
     z-index: 2;
     backdrop-filter: blur(100px);
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
 
 }
 
-.Image{
-
+.Image {
     grid-column: 1/4;
-    grid-row: 1/9;
+    grid-row: 1/10;
     border-radius: 25px 0 0 25px;
     background-image: url("../UI/Image/ImageStart.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    #clip-path: polygon(0 0, 15% 0, 50% 40%,90% 0,100% 0,100% 100%,0 100%);
-    z-index: 0;
-
+    background-size: cover;
 }
 
-.LoginRegister{
+.LoginRegister {
     border-radius: 0 25px 25px 0;
-    background-color: 	rgb(208, 219, 221);
+    background-color: rgb(208, 219, 221);
     grid-column: 4/9;
     grid-row: 1/9;
     display: grid;
+    position: relative;
+}
+
+.UserPanel {
+    border-radius: 25px;
+    background-color: rgb(208, 219, 221);
+    grid-column: 1/9;
+    grid-row: 1/9;
+    display: grid;
+    position: relative;
 }

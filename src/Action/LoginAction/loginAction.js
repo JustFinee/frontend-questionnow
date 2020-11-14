@@ -1,23 +1,29 @@
 import axios from 'axios';
 
-export const LoginBegin = (dispatch,userData) => {
+export const LoginBegin = (dispatch, userData, setLoginBeginState) => {
     axios.post("http://localhost:8080/users/signIn", {
         headers: {
             accept: 'application/json',
         },
         email: userData.email,
         password: userData.password
-    }).then(res => dispatch(loginSucces({
-        "name": res.headers['name'],
-        "token": res.headers['token'],
-        "id": res.headers['id']
-    })))
-        .catch(error =>  dispatch(loginError(error.request.responseText)))
+    }).then(res => {
+        setLoginBeginState(false)
+        dispatch(loginSuccess({
+            "name": res.headers['name'],
+            "token": res.headers['token'],
+            "id": res.headers['id']
+        }))
+    })
+        .catch(error => {
+            setLoginBeginState(false);
+            dispatch(loginError(error.request.responseText));
+        })
 
 
 }
 
-export const loginSucces = (userData) => {
+export const loginSuccess = (userData) => {
     return {
         type: "LOGIN_SUCCES",
         userData: userData

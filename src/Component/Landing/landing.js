@@ -2,9 +2,10 @@ import React from "react";
 import "./landing.css";
 import Login from "../Login/login";
 import Register from "../Register/Register";
+import UserPanel from "../UserPanel/UserPanel";
 import {useSelector} from "react-redux";
 import {Route} from "react-router-dom";
-
+import {Redirect} from "react-router-dom";
 
 const Landing = () => {
     const isAuthenticated = useSelector(state => state.login.isAuthenticated);
@@ -13,12 +14,22 @@ const Landing = () => {
         <Route path="/register" exact component={Register}/>,
     ]
 
+    const authenticated = [
+        <Route path="/user" component={UserPanel}/>,
+    ]
+
     return (
         <div className="Landing">
-            <div className="Image"></div>
-            <div className="LoginRegister">
-            {isAuthenticated ? null : notAuthenticated}
-            </div>
+            {isAuthenticated ? <Redirect to="/user"/> : <Redirect to="/login"/>}
+            {isAuthenticated ? <div className="UserPanel">
+                    {authenticated}
+                </div> :
+                <>
+                    <div className="Image"></div>
+                    <div className="LoginRegister">
+                        {notAuthenticated}
+                    </div>
+                </>}
 
         </div>
     )
