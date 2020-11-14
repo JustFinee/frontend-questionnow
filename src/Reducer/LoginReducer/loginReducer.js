@@ -3,7 +3,8 @@ const initialState =
         "isAuthenticated": false,
         "userName": "",
         "userId": "",
-        "token": ""
+        "token": "",
+        "errorLogin": false
     }
 
 const loginReducer = (state = initialState, action) => {
@@ -13,11 +14,12 @@ const loginReducer = (state = initialState, action) => {
                 "isAuthenticated": true,
                 "userName": action.userData.name,
                 "userId": action.userData.id,
-                "token": action.userData.token
+                "token": action.userData.token,
+                "errorLogin":false
             }
 
         case 'LOGIN_ERROR':
-            return initialState;
+            return {...initialState, "errorLogin": action.error}
         default:
             return state;
 

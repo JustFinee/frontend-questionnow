@@ -9,6 +9,8 @@ const input = (props) => {
                 type={props.type}
                 name={props.name}
                 placeholder={props.placeholder}
+                value={props.value}
+                onChange={e=>props.handler(e.target.value)}
             />
 
         </div>
