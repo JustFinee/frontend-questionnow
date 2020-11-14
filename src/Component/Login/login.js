@@ -5,8 +5,8 @@ import Button from "../UI/Button/button";
 import * as loginAction from "../../Action/LoginAction/loginAction";
 import {useDispatch} from 'react-redux';
 import {useSelector} from "react-redux";
-import {useStore} from "react-redux";
 import TextError from "../UI/ErrorText/ErrorText";
+import {Link} from "react-router-dom";
 
 
 const Login = () => {
@@ -29,10 +29,13 @@ const Login = () => {
                        handler={setInputEmailState}/>
                 <Input type="password" name="password" placeholder="Your password" value={inputPasswordState}
                        handler={setInputPasswordState}/>
+                {errorMessage ? <TextError errorMessage={errorMessage}/> : <TextError errorMessage=""/>}
                 <Button type="submit" text="Sign in" handler={buttonHandler}/>
             </form>
-             {errorMessage ? <TextError errorMessage={errorMessage}/> :<TextError errorMessage=""/>}
-            <h3>You don't have account? Quick SIGN UP here</h3>
+
+            <h3>You don't have account? Quick
+                <Link to={"/register"}> SIGN UP </Link>
+                here</h3>
         </div>
     )
 }
