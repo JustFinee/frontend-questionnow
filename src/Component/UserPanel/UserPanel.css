@@ -1,0 +1,17 @@
+.LeftSide{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    box-shadow: 10px 0px 5px -2px gray;
+    background-color: rgb(179, 190, 192);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.Navigation {
+    grid-column: 1/2;
+    grid-row: 2/4;
+
+}

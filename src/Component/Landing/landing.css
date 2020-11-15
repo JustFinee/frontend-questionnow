@@ -33,10 +33,13 @@
 }
 
 .UserPanel {
+    grid-gap: 2rem;
     border-radius: 25px;
     background-color: rgb(208, 219, 221);
     grid-column: 1/9;
     grid-row: 1/9;
     display: grid;
     position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
