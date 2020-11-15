@@ -1,0 +1,11 @@
+.QuestionnaireShort {
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 2rem;
+
+    border-radius: 25px;
+    letter-spacing: 0.2rem;
+    background-color: rgb(113, 161, 180);;
+    color:white;
+}

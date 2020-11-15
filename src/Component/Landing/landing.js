@@ -10,17 +10,16 @@ import {Redirect} from "react-router-dom";
 const Landing = () => {
     const isAuthenticated = useSelector(state => state.login.isAuthenticated);
     const notAuthenticated = [
-        <Route path="/login" exact component={Login}/>,
-        <Route path="/register" exact component={Register}/>,
+        <Route key="login" path="/login" exact component={Login}/>,
+        <Route key="register" path="/register" exact component={Register}/>,
     ]
 
-    const authenticated = [
-        <Route path="/user" component={UserPanel}/>,
-    ]
+    const authenticated = <Route path="/user" component={UserPanel}/>
+
 
     return (
         <div className="Landing">
-            {isAuthenticated ? <Redirect to="/user"/> : <Redirect to="/login"/>}
+            {isAuthenticated ? <Redirect to="/user/questionnaires"/> : <Redirect to="/login"/>}
             {isAuthenticated ? <div className="UserPanel">
                     {authenticated}
                 </div> :

@@ -2,7 +2,9 @@ import React from 'react';
 import "./UserPanel.css";
 import Navigation from "./Navigation/navigation";
 import Welcome from "../UI/Welcome/welcome";
+import MyQuestionnaire from "./MyQuestionnaire/MyQuestionnaire";
 import {useSelector} from "react-redux";
+import {Route} from "react-router-dom";
 
 
 const UserPanel = () => {
@@ -10,14 +12,18 @@ const UserPanel = () => {
     return (
         <>
             <div className="LeftSide">
-            <div className="Welcome">
-                <Welcome name={userName}/>
+                <div className="Welcome">
+                    <Welcome name={userName}/>
+                </div>
+                <div className="Navigation">
+                    <Navigation/>
+                </div>
             </div>
-            <div className="Navigation">
-                <Navigation/>
+            <div className="RightSide">
+                <Route path="/user/questionnaires" exact component={MyQuestionnaire}/>
             </div>
-        </div>
-            </>
+
+        </>
     )
 }
 

@@ -1,0 +1,38 @@
+.MyQuestionnaire{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.MyQuestionnaire h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+.Questionnaires{
+    height: 100%;
+    width: 95%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+
+}
+
+.Questionnaires::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.Questionnaires::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 190, 192);
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+.Questionnaires::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

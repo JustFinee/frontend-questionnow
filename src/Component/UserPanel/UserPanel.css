@@ -8,6 +8,17 @@
     background-color: rgb(179, 190, 192);
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
+    z-index: 2;
+}
+
+.RightSide{
+    display: flex;
+    grid-column: 2/5;
+    grid-row: 1/5;
+    background-color: rgb(208, 219, 221);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
 }
 
 .Navigation {
