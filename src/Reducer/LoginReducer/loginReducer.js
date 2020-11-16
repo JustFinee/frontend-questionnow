@@ -15,11 +15,13 @@ const loginReducer = (state = initialState, action) => {
                 "userName": action.userData.name,
                 "userId": action.userData.id,
                 "token": action.userData.token,
-                "errorLogin":false
+                "errorLogin": false
             }
-
         case 'LOGIN_ERROR':
             return {...initialState, "errorLogin": action.error}
+        case 'LOG_OUT':
+            return initialState;
+
         default:
             return state;
 

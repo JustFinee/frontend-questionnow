@@ -21,7 +21,10 @@ const MyQuestionnaire = () => {
     )
 
     if (isQuestionnaireLoaded){
-        shortQuestionnaires = questionnaires.map( quest => <QuestionnaireShort key={quest.questionnaireDtoId} name={quest.name}/>)
+        shortQuestionnaires = questionnaires.map( quest => <QuestionnaireShort
+            key={quest.questionnaireDtoId}
+            id={quest.questionnaireDtoId}
+            name={quest.name}/>)
     }
 
 
@@ -30,7 +33,7 @@ const MyQuestionnaire = () => {
             <h1>My Questionnaires</h1>
             <div className="Questionnaires">
             {isQuestionnaireLoaded ? <div>{shortQuestionnaires}</div>
-                : <Loader type="TailSpin" color="rgb(55, 81, 94)" height="4rem" width="50"/>}
+                : <div className="Loader"><Loader type="TailSpin" color="rgb(55, 81, 94)" height="4rem" width="50"/></div>}
             </div>
         </div>
     )

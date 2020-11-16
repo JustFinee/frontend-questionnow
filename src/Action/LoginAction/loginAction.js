@@ -24,9 +24,21 @@ export const LoginBegin = (dispatch, userData, setLoginBeginState) => {
 }
 
 export const loginSuccess = (userData) => {
+    localStorage.setItem('token',userData.token);
+    localStorage.setItem('id',userData.id);
+    localStorage.setItem('name',userData.name);
     return {
         type: "LOGIN_SUCCES",
         userData: userData
+    }
+
+
+}
+
+export const logout = () => {
+    localStorage.clear();
+    return {
+        type: "LOG_OUT"
     }
 
 

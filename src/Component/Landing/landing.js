@@ -3,11 +3,13 @@ import "./landing.css";
 import Login from "../Login/login";
 import Register from "../Register/Register";
 import UserPanel from "../UserPanel/UserPanel";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {Route} from "react-router-dom";
 import {Redirect} from "react-router-dom";
+import {loginSuccess} from "../../Action/LoginAction/loginAction";
 
 const Landing = () => {
+    const dispatch = useDispatch();
     const isAuthenticated = useSelector(state => state.login.isAuthenticated);
     const notAuthenticated = [
         <Route key="login" path="/login" exact component={Login}/>,
@@ -15,6 +17,16 @@ const Landing = () => {
     ]
 
     const authenticated = <Route path="/user" component={UserPanel}/>
+
+    if (localStorage.getItem('name')!==null){
+        dispatch(loginSuccess({
+            "name": localStorage.getItem('name'),
+            "token": localStorage.getItem('token'),
+            "id": localStorage.getItem('id')
+            }
+
+        ))
+    }
 
 
     return (

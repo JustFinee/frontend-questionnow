@@ -1,0 +1,16 @@
+.Question{
+    margin: 1rem 0 0 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.Answer{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+.Answer:last-child{
+    margin-bottom: 5rem;
+
+}

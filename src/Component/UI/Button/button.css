@@ -1,12 +1,22 @@
 .Button{
     margin-top: 1rem;
-    width: 40%;
+    width: 60%;
     padding: 0.6rem 2rem;
     border-radius: 20px;
     font-size: 1.5rem;
-    border: solid #cfeccf;
+    border: none;
     background-color: rgb(55, 81, 94);
     color: rgb(208, 219, 221);
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     font-family: 'Lobster', cursive;
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
 }
+
+.Button:focus{
+    outline: none;
+}
+
+.Button:hover{
+    background-color: rgb(76, 113, 130);
+}
+

@@ -1,0 +1,34 @@
+.FullQuestionnaire{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+}
+
+.QuestionContent{
+    overflow: auto;
+    margin-left: 2rem;
+    width: 90%;
+}
+
+.QuestionContent::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+}
+
+.QuestionContent::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.QuestionContent::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 190, 192);
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+.QuestionContent::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
