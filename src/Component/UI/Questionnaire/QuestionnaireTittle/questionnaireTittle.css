@@ -1,5 +1,6 @@
 .QuestionnaireTittle{
-    font-size: 3rem;
-    margin-left: 4rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-left: 2rem;
     font-weight: bold;
 }

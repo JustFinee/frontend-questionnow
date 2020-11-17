@@ -23,6 +23,7 @@ const FullQuestionnaire = (props) => {
     if (questionnaireIsLoad && questionnaire.hasOwnProperty("questionList") && questionnaire.questionList.length > 0) {
         mappedQuestionnaire = questionnaire.questionList.map(question => <Question
                 key={question.questionNumber}
+                questionId={question.questionId}
                 value={question.value}
                 answerList={question.answerList}
             />
