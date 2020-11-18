@@ -1,11 +1,3 @@
-import axios from 'axios';
-
-
-export const changeFullQuestionnaireAction = (dispatch,token, userId) => {
-
-
-}
-
 export const changeFullQuestionnaireSuccess = (questionnaire) => {
     return {
         type: "CHANGE_QUESTIONNAIRE_FULL_SUCCESS",

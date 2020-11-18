@@ -14,3 +14,72 @@
     margin-bottom: 5rem;
 
 }
+
+.DeleteQuestion {
+    background-color: rgb(90, 131, 145);
+    color: white;
+    width: 20%;
+    border-radius: 25px;
+    height: 2rem;
+    border: none;
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
+    align-self: flex-end;
+    margin-right: 1rem;
+    width: 30%;
+}
+
+.DeleteQuestion:hover {
+    background-color: rgb(76, 116, 130);
+}
+.DeleteQuestion:focus {
+    outline: none;
+}
+
+
+.AnswerWithAddButton{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.AddButton{
+    align-self: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddAnswerButton {
+    background-color: rgb(90, 131, 145);
+    color: white;
+    width: 40%;
+    border-radius: 25px;
+    height: 2rem;
+    border: none;
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+.AddAnswerButton:hover {
+    background-color: rgb(76, 116, 130);
+
+}
+
+.AddAnswerButton:focus {
+    outline: none;
+}
+
+.QuestionWithDeleteButton{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(90, 131, 145);
+    padding-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.QuestionData {
+    margin-left: 2rem;
+}

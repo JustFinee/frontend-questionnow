@@ -51,13 +51,18 @@ const Answer = (props) => {
         }))
     }
 
+
     return (
         <>
-            {isAnswerChanging ? <ChangeInput value={inputAnswerChange} handler={setInputAnswerChange} saveHandler={saveInput}/>
-                : <>
+            {isAnswerChanging ?
+                <ChangeInput value={inputAnswerChange} handler={setInputAnswerChange} saveHandler={saveInput}/>
+                : <div className="AnswerWithButton">
                     <h4 className="AnswerContent" onClick={changeAnswerHandler}>{props.value}</h4>
-                    <button onClick={deleteAnswer}>Delete</button>
-                </>}
+                    <p className="AnswerData">Answer number: {props.answerNumber}</p>
+                    <p className="AnswerData">Next question number: {props.nextQuestionNumber}</p>
+                    <button className="DeleteAnswer" onClick={deleteAnswer}>Delete Answer</button>
+
+                </div>}
         </>
     )
 }

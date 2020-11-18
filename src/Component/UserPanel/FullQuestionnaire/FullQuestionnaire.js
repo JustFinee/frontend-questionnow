@@ -13,6 +13,7 @@ const FullQuestionnaire = (props) => {
     const [questionnaireIsLoad, setQuestionnaireIsLoad] = useState(false);
     const userId = useSelector(state => state.login.userId);
     const questionnaire = useSelector(state => state.fullQuestionnaire.questionnaire);
+    const addedAnswer = useSelector(state => state.addAnswer);
     const token = useSelector(state => state.login.token);
     let mappedQuestionnaire = [];
 
@@ -26,6 +27,7 @@ const FullQuestionnaire = (props) => {
                 questionId={question.questionId}
                 value={question.value}
                 answerList={question.answerList}
+                questionNumber={question.questionNumber}
             />
         )
     }
