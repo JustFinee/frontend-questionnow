@@ -37,6 +37,7 @@ const Question = (props) => {
         const questionnaireChanged = changeQuestionInQuestionnaire();
         dispatch(questionnaireFullSuccess(questionnaireChanged));
         setIsChanging(false);
+        props.isChanged(true);
     }
 
     const deleteQuestion = () => {
@@ -46,6 +47,7 @@ const Question = (props) => {
             ...questionnaire,
             "questionList": changedQuestionList
         }))
+        props.isChanged(true);
     }
 
     const addAnswer = () => {
@@ -58,6 +60,7 @@ const Question = (props) => {
                                                            value={answer.value}
                                                            answerNumber={answer.answerNumber}
                                                            nextQuestionNumber ={answer.nextQuestionNumber}
+                                                           isChanged={props.isChanged}
     />)
 
     return (

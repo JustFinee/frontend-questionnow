@@ -29,6 +29,7 @@ const QuestionnaireTittle = (props) => {
         const questionnaireChanged = changeTittleInQuestionnaire();
         dispatch(questionnaireFullSuccess(questionnaireChanged));
         setIsChanging(false);
+        props.isChanged(true);
     }
 
 

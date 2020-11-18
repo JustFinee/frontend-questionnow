@@ -6,14 +6,18 @@ import {questionnaireFullBegin} from "../../../Action/QuestionnaireFullAction/qu
 import Loader from 'react-loader-spinner';
 import QuestionnaireTittle from "../../UI/Questionnaire/QuestionnaireTittle/questionnaireTittle";
 import Question from "../../UI/Questionnaire/Question/question";
+import {
+    changeFullQuestionnaireBegin,
+    deleteFullQuestionnaireBegin
+} from "../../../Action/ChangeFullQuestionnaireAction/changeFullQuestionnaireAction";
 
 const FullQuestionnaire = (props) => {
     const dispatch = useDispatch();
     const questionnaireId = props.match.params['id'];
+    const [isQuestionnaireChanged, setIsQuestionnaireChanged] = useState(false);
     const [questionnaireIsLoad, setQuestionnaireIsLoad] = useState(false);
     const userId = useSelector(state => state.login.userId);
     const questionnaire = useSelector(state => state.fullQuestionnaire.questionnaire);
-    const addedAnswer = useSelector(state => state.addAnswer);
     const token = useSelector(state => state.login.token);
     let mappedQuestionnaire = [];
 
@@ -28,8 +32,19 @@ const FullQuestionnaire = (props) => {
                 value={question.value}
                 answerList={question.answerList}
                 questionNumber={question.questionNumber}
+                isChanged={setIsQuestionnaireChanged}
             />
         )
+    }
+
+    const changeQuestionnaire = () => {
+        changeFullQuestionnaireBegin(dispatch,userId,token,questionnaire);
+        setIsQuestionnaireChanged(false)
+    }
+
+    const removeQuestionnaire = () => {
+        console.log("usuwam")
+        deleteFullQuestionnaireBegin(dispatch,userId,token,questionnaireId,props.history);
     }
 
     return (
@@ -37,7 +52,11 @@ const FullQuestionnaire = (props) => {
             {questionnaireIsLoad
                 ?
                 <>
-                    <QuestionnaireTittle tittle ={questionnaire.name}/>
+                    <div className="ButtonsForChangeQuestionnaire">
+                        <button className="ChangeQuestionnaireButton" disabled={!isQuestionnaireChanged} onClick={changeQuestionnaire}>Save changes</button>
+                        <button className="ChangeQuestionnaireButton"  onClick={removeQuestionnaire}>Remove Questionnaire</button>
+                    </div>
+                    <QuestionnaireTittle tittle ={questionnaire.name} isChanged={setIsQuestionnaireChanged}/>
                     <div className="QuestionContent">{mappedQuestionnaire}</div>
                 </>
                 : <div className="Loader"><Loader type="TailSpin" color="rgb(55, 81, 94)" height="4rem" width="50"/></div>}

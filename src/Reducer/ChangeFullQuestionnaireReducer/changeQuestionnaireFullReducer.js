@@ -12,6 +12,14 @@ const changeQuestionnaireFullReducer = (state = initialState, action) => {
                 "error": false
             }
 
+        case 'DELETE_QUESTIONNAIRE_FULL_SUCCESS':
+            return {
+                "questionnaire": action.questionnaire,
+                "error": false
+            }
+
+
+
         case 'CHANGE_QUESTIONNAIRE_FULL_ERROR':
             return {...initialState, "error": action.error}
         default:

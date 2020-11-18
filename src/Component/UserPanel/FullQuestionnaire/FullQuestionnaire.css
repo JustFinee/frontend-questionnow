@@ -35,3 +35,33 @@
 .QuestionContent::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.ChangeQuestionnaireButton{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    width: 20%;
+    background-color: rgb(90, 131, 145);
+    color: white;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
+    margin-left: 3rem;
+}
+
+.ChangeQuestionnaireButton:hover{
+    background-color: rgb(108, 154, 168);
+
+}
+
+.ChangeQuestionnaireButton:focus{
+    outline: none;
+}
+
+.ChangeQuestionnaireButton:disabled{
+    opacity: 50%;
+}
+
+.ButtonsForChangeQuestionnaire{
+    width: 100%;
+}

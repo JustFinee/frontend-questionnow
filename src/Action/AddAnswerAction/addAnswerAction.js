@@ -1,4 +1,9 @@
 import axios from 'axios';
+import {
+    questionnaireFullBegin,
+    questionnaireFullError,
+    questionnaireFullSuccess
+} from "../QuestionnaireFullAction/questionnaireFullAction";
 
 
 export const addAnswerBegin = (dispatch, token, userId, questionnaireId, questionId,handler, answer,history) => {
@@ -11,12 +16,29 @@ export const addAnswerBegin = (dispatch, token, userId, questionnaireId, questio
             Authorization: `Bearer ${token}`
         }
     }).then(res => {
-            handler(false);
-            dispatch(addAnswerSuccess(res.data))
+
+
+        dispatch(addAnswerSuccess(res.data))
+        updateQuestionnaire(userId,token,questionnaireId,dispatch)
+        handler(false);
         }
     )
         .catch(error => console.log(error))
 
+}
+
+const updateQuestionnaire = (userId,token,questionnaireId,dispatch) => {
+    axios.get("http://localhost:8080/getUserQuestionnaire?userId="+userId+"&questionnaireId="+questionnaireId, {
+        headers: {
+            Authorization: 'Bearer ' + token,
+        },
+    }).then(res => {
+            dispatch(questionnaireFullSuccess(res.data))
+        }
+    )
+        .catch(error => {
+            dispatch(questionnaireFullError(error));
+        })
 }
 
 export const addAnswerSuccess = (answerData) => {
