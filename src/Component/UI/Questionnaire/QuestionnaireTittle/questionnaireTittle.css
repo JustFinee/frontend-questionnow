@@ -1,6 +1,7 @@
 .QuestionnaireTittle{
-    width: 100%;
+    display: flex;
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
 }

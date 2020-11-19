@@ -4,6 +4,7 @@ import questionnaireShortReducer from "./QuestionnaireShortReducer/questionnaire
 import questionnaireFullReducer from "./QuestionnaireFullReducer/questionnaireFullReducer"
 import changeQuestionnaireFullReducer from "./ChangeFullQuestionnaireReducer/changeQuestionnaireFullReducer"
 import addAnswerReducer from "./AddAnswerReducer/addAnswerReducer";
+import addQuestionReducer from "./AddQuestionReducer/addQuestionReducer";
 
 
 const rootReducer = combineReducers({
@@ -11,7 +12,8 @@ const rootReducer = combineReducers({
     shortQuestionnaire : questionnaireShortReducer,
     fullQuestionnaire : questionnaireFullReducer,
     changeQuestionnaire : changeQuestionnaireFullReducer,
-    addAnswer : addAnswerReducer
+    addAnswer : addAnswerReducer,
+    addQuestion: addQuestionReducer
 
 });
 

@@ -6,6 +6,7 @@ import {questionnaireFullBegin} from "../../../Action/QuestionnaireFullAction/qu
 import Loader from 'react-loader-spinner';
 import QuestionnaireTittle from "../../UI/Questionnaire/QuestionnaireTittle/questionnaireTittle";
 import Question from "../../UI/Questionnaire/Question/question";
+import AddQuestion from "../../UI/Questionnaire/Question/AddQuestion/AddQuestion";
 import {
     changeFullQuestionnaireBegin,
     deleteFullQuestionnaireBegin
@@ -16,6 +17,7 @@ const FullQuestionnaire = (props) => {
     const questionnaireId = props.match.params['id'];
     const [isQuestionnaireChanged, setIsQuestionnaireChanged] = useState(false);
     const [questionnaireIsLoad, setQuestionnaireIsLoad] = useState(false);
+    const [isAddingQuestion, setIsAddingQuestion] = useState(false);
     const userId = useSelector(state => state.login.userId);
     const questionnaire = useSelector(state => state.fullQuestionnaire.questionnaire);
     const token = useSelector(state => state.login.token);
@@ -47,15 +49,21 @@ const FullQuestionnaire = (props) => {
         deleteFullQuestionnaireBegin(dispatch,userId,token,questionnaireId,props.history);
     }
 
+    const addQuestion = () => {
+        setIsAddingQuestion(true)
+    }
+
     return (
         <div className="FullQuestionnaire">
             {questionnaireIsLoad
                 ?
-                <>
+                <>{isAddingQuestion ? <AddQuestion isChanged={setIsQuestionnaireChanged} isAdded={setIsAddingQuestion}/> :
                     <div className="ButtonsForChangeQuestionnaire">
                         <button className="ChangeQuestionnaireButton" disabled={!isQuestionnaireChanged} onClick={changeQuestionnaire}>Save changes</button>
                         <button className="ChangeQuestionnaireButton"  onClick={removeQuestionnaire}>Remove Questionnaire</button>
+                        <button className="ChangeQuestionnaireButton"  onClick={addQuestion}>Add Question</button>
                     </div>
+                }
                     <QuestionnaireTittle tittle ={questionnaire.name} isChanged={setIsQuestionnaireChanged}/>
                     <div className="QuestionContent">{mappedQuestionnaire}</div>
                 </>

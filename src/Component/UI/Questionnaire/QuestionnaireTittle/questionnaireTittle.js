@@ -20,7 +20,7 @@ const QuestionnaireTittle = (props) => {
     const changeTittleInQuestionnaire = () => {
         return {
             ...questionnaire,
-            "name":inputChange
+            "name": inputChange
         }
     }
 
@@ -29,7 +29,10 @@ const QuestionnaireTittle = (props) => {
         const questionnaireChanged = changeTittleInQuestionnaire();
         dispatch(questionnaireFullSuccess(questionnaireChanged));
         setIsChanging(false);
-        props.isChanged(true);
+        if (props.isChanged !== undefined)
+            props.isChanged(true);
+        if (props.changeTittleCreation !== undefined)
+            props.changeTittleCreation(inputChange)
     }
 
 

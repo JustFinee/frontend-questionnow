@@ -7,8 +7,8 @@ import FullQuestionnaire from "./FullQuestionnaire/FullQuestionnaire";
 import {useDispatch, useSelector} from "react-redux";
 import {Route} from "react-router-dom";
 import Button from "../UI/Button/button";
-import {Redirect} from "react-router-dom";
 import {logout} from "../../Action/LoginAction/loginAction";
+import CreateQuestionnaire from "./CreateQuestionnaire/CreateQuestionnaire";
 
 
 const UserPanel = (props) => {
@@ -37,6 +37,7 @@ const UserPanel = (props) => {
             <div className="RightSide">
                 <Route path="/user/questionnaires" exact component={MyQuestionnaire}/>
                 <Route path="/user/questionnaires/:id" component={FullQuestionnaire}/>
+                <Route path="/user/createQuestionnaires" component={CreateQuestionnaire}/>
             </div>
 
         </>
