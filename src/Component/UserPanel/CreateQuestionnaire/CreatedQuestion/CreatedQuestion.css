@@ -4,6 +4,7 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 .QuestionProperty{
@@ -14,5 +15,13 @@
     margin: 0;
 }
 
+.ChangeFullQuestion{
+    width: 100%;
+    margin-top: -0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    letter-spacing: 0;
+}
 
 

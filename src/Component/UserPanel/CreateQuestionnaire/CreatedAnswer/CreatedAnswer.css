@@ -18,3 +18,12 @@
 .AnswerCreated p {
     margin: 0;
 }
+
+.ChangeFullAnswer{
+    width: 100%;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    letter-spacing: 0;
+}
