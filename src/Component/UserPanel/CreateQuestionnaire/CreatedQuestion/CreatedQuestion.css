@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    width: 90%;
+    margin-left: 1rem;
 }
 
 .QuestionProperty{
@@ -24,4 +26,13 @@
     letter-spacing: 0;
 }
 
+.Answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.Answers button {
+    align-self: start;
+    margin-top: 1.5rem;
+}
 

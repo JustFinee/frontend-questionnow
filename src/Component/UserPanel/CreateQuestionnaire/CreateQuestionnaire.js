@@ -4,12 +4,17 @@ import QuestionnaireTittle from "../../UI/Questionnaire/QuestionnaireTittle/ques
 import {useState} from "react"
 import CreatedQuestion from "./CreatedQuestion/CreatedQuestion";
 import ChangeFullQuestionInput from "./CreatedQuestion/ChangeFullQuestionInput/ChangeFullQuestionInput";
+import {saveQuestionnaireBegin} from "../../../Action/SaveQuestionnaireAction/saveQuestionnaireAction";
+import {useDispatch, useSelector} from "react-redux";
 
-const CreateQuestionnaire = () => {
-    const [tittle, setTittle] = useState("Tittle");
+const CreateQuestionnaire = (props) => {
+    const [tittle, setTittle] = useState("Example tittle of questionnaire");
+    const token = useSelector(state => state.login.token);
+    const userId = useSelector(state => state.login.userId);
     const [isQuestionAdding, setIsQuestionAdding] = useState(false);
     const [questionValue, setQuestionValue] = useState("");
     const [questionNumber, setQuestionNumber] = useState("");
+    const dispatch = useDispatch();
 
     const answerListInit = [
         {
@@ -39,10 +44,11 @@ const CreateQuestionnaire = () => {
         key={question.questionNumber}
         value={question.value}
         questionNumber={question.questionNumber}
-        answerList={answerList}
+        answerList={question.answerList}
         setQuestionList={setQuestionList}
         questionList = {questionList}
         questionnaire = {questionnaire}
+        setAnswerList = {setAnswerList}
         />
     )
 
@@ -56,18 +62,25 @@ const CreateQuestionnaire = () => {
         setQuestionList(changedQuestionList)
     }
 
+    const saveQuestionnaire = () => {
+        questionnaire.name=tittle;
+        saveQuestionnaireBegin(dispatch,questionnaire,token,userId,props.history);
+    }
+
 
 
     return (
         <div className="CreateQuestionnaire">
-            <h1>Create Questionnaire</h1>
-            <QuestionnaireTittle tittle={tittle} changeTittleCreation={setTittle}/>
+            <h1 className="CreateQuestionnaireStart">Create Questionnaire</h1>
             <div className="CreatedQuestionnaire">
+                <QuestionnaireTittle tittle={tittle} changeTittleCreation={setTittle}/>
+
                 {mappedQuestion}
                 {isQuestionAdding ? <ChangeFullQuestionInput saveQuestion={addQuestion} addQuestion={true} save={setIsQuestionAdding} qV={setQuestionValue} qN={setQuestionNumber}/>
-                : <button className="AddQuestion" onClick={() =>setIsQuestionAdding(true)}>Add question</button>}
-
+                : <button className="AddQuestion Hover" onClick={() =>setIsQuestionAdding(true)}>Add question</button>}
+                <button className="SaveQuestionnaire Hover" onClick={() =>saveQuestionnaire()}>Save questionnaire</button>
             </div>
+
         </div>
 )
 }

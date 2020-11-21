@@ -5,3 +5,25 @@
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
 }
+.FullTittle h1 {
+    margin-top: 2rem;
+    padding: 0;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0;
+}
+
+.OnTittle{
+    margin-left: 2rem;
+}
+
+.FullTittle  {
+    width: 100%;
+   margin-bottom: 2rem;
+    letter-spacing: 0;
+}
+
+.OnTittle:hover{
+    color: rgb(76, 116, 130);
+}
+

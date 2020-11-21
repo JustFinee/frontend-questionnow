@@ -39,7 +39,11 @@ const QuestionnaireTittle = (props) => {
     return (
         <div className="QuestionnaireTittle" onClick={changeTittleHandler}>
             {isChanging ? <ChangeInput value={inputChange} handler={setInputChange} saveHandler={saveInput}/>
-                : <h1>{props.tittle}</h1>}
+                : <div className="FullTittle">
+                    <h1>{props.tittle}</h1>
+                    <label className="ChangeFullQuestion OnTittle">Change Tittle</label>
+                </div>
+            }
         </div>
 
     )

@@ -17,7 +17,7 @@ const CreatedAnswer = (props) => {
                     <p className="AnswerValue">Answer: {answerValueInput}</p>
                     <p>Answer Number: {answerNumberInput}</p>
                     <p>Next Question number: {answerNextQuestionInput}</p>
-                    <label className="ChangeFullAnswer" onClick={ () => setAnswerChange(true)}>Change Answer</label>
+                    <label className="ChangeFullAnswer Label" onClick={ () => setAnswerChange(true)}>Change Answer</label>
                 </>}
         </div>
     )

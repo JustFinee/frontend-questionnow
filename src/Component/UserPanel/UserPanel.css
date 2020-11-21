@@ -9,6 +9,7 @@
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     z-index: 2;
+    justify-content: space-around;
 }
 
 .RightSide{
@@ -31,4 +32,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
