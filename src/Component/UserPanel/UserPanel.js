@@ -12,7 +12,6 @@ import CreateQuestionnaire from "./CreateQuestionnaire/CreateQuestionnaire";
 import Results from "./Results/Results";
 import ResultQuestionnaire from "./Results/ResultQuestionnaire/ResultQuestionnaire";
 
-
 const UserPanel = (props) => {
     const userName = useSelector(state => state.login.userName);
     const dispatch = useDispatch();

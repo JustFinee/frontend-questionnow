@@ -5,6 +5,8 @@ const SimpleAnswer = (props) => {
     return(
         <div className="SimpleAnswer">
             {props.answerNumber}. {props.value}
+            <span className="AnswerColor" style={{backgroundColor: props.color}}></span>
+            <p>Counted answers: {props.counter}</p>
         </div>
     )
 }

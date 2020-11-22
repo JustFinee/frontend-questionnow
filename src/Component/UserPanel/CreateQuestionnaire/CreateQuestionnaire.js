@@ -72,8 +72,9 @@ const CreateQuestionnaire = (props) => {
     return (
         <div className="CreateQuestionnaire">
             <h1 className="CreateQuestionnaireStart">Create Questionnaire</h1>
+            <QuestionnaireTittle tittle={tittle} changeTittleCreation={setTittle}/>
             <div className="CreatedQuestionnaire">
-                <QuestionnaireTittle tittle={tittle} changeTittleCreation={setTittle}/>
+
 
                 {mappedQuestion}
                 {isQuestionAdding ? <ChangeFullQuestionInput saveQuestion={addQuestion} addQuestion={true} save={setIsQuestionAdding} qV={setQuestionValue} qN={setQuestionNumber}/>

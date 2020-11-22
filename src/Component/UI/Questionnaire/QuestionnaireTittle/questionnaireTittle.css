@@ -1,29 +1,32 @@
-.QuestionnaireTittle{
+.QuestionnaireTittle {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 1.5rem;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
+    width: 90%;
 }
+
 .FullTittle h1 {
     margin-top: 2rem;
     padding: 0;
     margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
+    margin-left: 2rem;
     letter-spacing: 0;
 }
 
-.OnTittle{
+.OnTittle {
     margin-left: 2rem;
 }
 
-.FullTittle  {
+.FullTittle {
     width: 100%;
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
     letter-spacing: 0;
 }
 
-.OnTittle:hover{
+.OnTittle:hover {
     color: rgb(76, 116, 130);
 }
 

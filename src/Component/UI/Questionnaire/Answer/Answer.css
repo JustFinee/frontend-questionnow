@@ -5,6 +5,7 @@
 
 .Answer{
     align-self: flex-start;
+    margin-left: 2rem;
 }
 
 .AnswerWithButton{

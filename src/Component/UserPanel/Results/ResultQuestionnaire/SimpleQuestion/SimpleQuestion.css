@@ -3,5 +3,12 @@
     margin-left: 2rem;
     margin-bottom: 2rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+}
+
+.PieChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }

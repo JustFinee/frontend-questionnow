@@ -37,11 +37,13 @@ const ResultQuestionnaire = (props) => {
             {questionnaireIsLoad ?
                 <div className="FullResult">
                     <h2 className="SimpleTittle">{questionnaire.name}</h2>
-                    {mappedQuestionnaire}
+                    <div className="SimpleQuestions">
+                        {mappedQuestionnaire}
+                    </div>
+
                 </div>
                 :
                 <div className="Loader"><Loader type="TailSpin" color="rgb(55, 81, 94)" height="4rem" width="50"/></div>
-
             }
         </div>
     )

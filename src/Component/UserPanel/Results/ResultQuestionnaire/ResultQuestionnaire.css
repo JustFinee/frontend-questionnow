@@ -1,6 +1,6 @@
 .ResultQuestionnaire{
     width: 100%;
-    overflow: auto;
+    display: flex;
 }
 
 .SimpleTittle{
@@ -10,8 +10,36 @@
     font-size: 3rem;
 }
 
+.SimpleQuestions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    width: 90%;
+}
+
 .FullResult{
-
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.SimpleQuestions::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+}
+
+.SimpleQuestions::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.SimpleQuestions::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 190, 192);
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+.SimpleQuestions::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

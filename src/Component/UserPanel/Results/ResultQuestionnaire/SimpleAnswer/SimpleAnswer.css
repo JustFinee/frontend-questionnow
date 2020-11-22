@@ -1,4 +1,17 @@
-.SimpleAnswer{
+.SimpleAnswer {
     margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.AnswerColor {
+    min-width: 2rem;
+    min-height: 0.5rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.SimpleAnswer p{
+    margin-top: 0.5rem;
     font-size: 1rem;
+    margin-left: 1rem;
 }
