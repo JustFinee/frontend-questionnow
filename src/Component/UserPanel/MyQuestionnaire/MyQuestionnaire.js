@@ -7,7 +7,7 @@ import Loader from 'react-loader-spinner';
 import "../../../Action/QuestionnaireShortAction/questionnaireShortAction";
 import {questionnaireShortBegin} from "../../../Action/QuestionnaireShortAction/questionnaireShortAction";
 
-const MyQuestionnaire = () => {
+const MyQuestionnaire = (props) => {
     const dispatch = useDispatch();
     const token = useSelector(state => state.login.token);
     const userId = useSelector(state => state.login.userId);

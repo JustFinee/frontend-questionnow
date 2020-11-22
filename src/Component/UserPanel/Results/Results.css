@@ -1,0 +1,12 @@
+.Results{
+    width: 100%;
+    overflow: auto;
+}
+
+.Results h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.5rem;
+}
+

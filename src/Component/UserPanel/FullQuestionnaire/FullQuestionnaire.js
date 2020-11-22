@@ -45,7 +45,6 @@ const FullQuestionnaire = (props) => {
     }
 
     const removeQuestionnaire = () => {
-        console.log("usuwam")
         deleteFullQuestionnaireBegin(dispatch,userId,token,questionnaireId,props.history);
     }
 

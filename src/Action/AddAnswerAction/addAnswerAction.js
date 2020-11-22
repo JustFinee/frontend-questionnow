@@ -1,12 +1,12 @@
 import axios from 'axios';
 import {
-    questionnaireFullBegin,
     questionnaireFullError,
     questionnaireFullSuccess
 } from "../QuestionnaireFullAction/questionnaireFullAction";
 
 
 export const addAnswerBegin = (dispatch, token, userId, questionnaireId, questionId,handler, answer,history) => {
+    console.log("jestem w poscie")
     axios.post("http://localhost:8080/addAnswer?userId=" + userId + "&questionnaireId=" + questionnaireId + "&questionId=" + questionId, {
         "value": answer.value,
         "answerNumber": answer.answerNumber,
