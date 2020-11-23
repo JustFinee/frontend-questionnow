@@ -1,0 +1,35 @@
+.PresentingAnswer{
+    width: 100%;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.PresentingAnswer h3{
+    margin-left: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.CheckBoxAnswer{
+    margin-left: 1rem;
+    display: flex;
+}
+
+.CheckBoxAnswer input{
+   display: none;
+}
+
+.CheckBoxAnswer input:checked ~ span{
+    background-color: rgb(90, 131, 145);
+}
+
+.CheckBoxAnswer span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+    border: solid 1px rgb(90, 131, 145);
+    border-radius: 25px;
+}
+

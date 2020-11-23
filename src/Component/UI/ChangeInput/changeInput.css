@@ -10,7 +10,29 @@
 }
 
 .ChangeInput textarea {
+    border: solid 2px rgb(90, 131, 145);
     width: 70%;
     background-color: transparent;
     font-size: 1.2rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.ChangeInput textarea:focus {
+    outline: none;
+    background-color: rgb(181, 192, 194);
+}
+
+.ChangeInput button {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    background-color: rgb(90, 131, 145);
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
+    color: white;
+}
+
+.ChangeInput button:hover {
+    background-color: rgb(78, 117, 131);
 }
