@@ -64,6 +64,8 @@ const FullQuestionnaire = (props) => {
                     </div>
                 }
                     <QuestionnaireTittle tittle ={questionnaire.name} isChanged={setIsQuestionnaireChanged}/>
+                    <p className="ShareLink">Link to share questionnaire: </p>
+                    <p className="ShareLink Last">localhost:3000/resolveQuestionnaire/{questionnaire.unicKey} </p>
                     <div className="QuestionContent">{mappedQuestionnaire}</div>
                 </>
                 : <div className="Loader"><Loader type="TailSpin" color="rgb(55, 81, 94)" height="4rem" width="50"/></div>}

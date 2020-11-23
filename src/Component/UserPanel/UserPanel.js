@@ -11,6 +11,7 @@ import {logout} from "../../Action/LoginAction/loginAction";
 import CreateQuestionnaire from "./CreateQuestionnaire/CreateQuestionnaire";
 import Results from "./Results/Results";
 import ResultQuestionnaire from "./Results/ResultQuestionnaire/ResultQuestionnaire";
+import MyAccount from "./MyAccount/MyAccount";
 
 const UserPanel = (props) => {
     const userName = useSelector(state => state.login.userName);
@@ -40,6 +41,7 @@ const UserPanel = (props) => {
                 <Route path="/user/questionnaires/:id" component={FullQuestionnaire}/>
                 <Route path="/user/createQuestionnaires" component={CreateQuestionnaire}/>
                 <Route path="/user/results" exact component={Results}/>
+                <Route path="/user/myAccount" exact component={MyAccount}/>
                 <Route path="/user/results/:id" exact component={ResultQuestionnaire}/>
             </div>
 

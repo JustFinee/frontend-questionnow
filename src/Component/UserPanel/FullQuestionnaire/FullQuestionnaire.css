@@ -65,3 +65,13 @@
 .ButtonsForChangeQuestionnaire{
     width: 100%;
 }
+
+.ShareLink{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.Last{
+    margin-bottom: 2rem;
+}

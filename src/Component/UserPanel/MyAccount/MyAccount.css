@@ -1,0 +1,76 @@
+.AccountSettings{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+
+}
+
+.Change{
+    display: flex;
+    justify-content: space-around;
+}
+.MyAccount{
+    width: 100%;
+}
+.AccountSettings h1{
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+}
+
+.ChangeName{
+    margin-bottom: 2rem;
+
+}
+
+.ChangePassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ChangeButton{
+    width: 90%;
+    border-radius: 25px;
+    padding: 0.6rem;
+    background-color: rgb(80, 109, 126);
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    border: none;
+    box-shadow: 4px 4px 5px rgb(36, 41, 43);
+    align-self: center;
+}
+
+.ChangeButton:hover{
+    background-color: rgb(100, 136, 153);
+}
+
+.ChangeParagraph {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 2rem;
+
+}
+
+.ChangeForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.ChangeLabel{
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.ChangeDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7rem;
+}
+
