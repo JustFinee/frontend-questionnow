@@ -8,8 +8,7 @@ const Navigation = () => {
     const nav = [
         {"text": "My questionnaires", "link": "/user/questionnaires"},
         {"text": "Create questionnaire", "link": "/user/createQuestionnaires"},
-        {"text": "Results", "link": "/user/results"},
-        {"text": "My account", "link": "/user/myAccount"}
+        {"text": "Results", "link": "/user/results"}
     ]
 
     const navMap = nav.map(item => (

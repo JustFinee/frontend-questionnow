@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5347670d-05c4-4b7e-a566-ff29e72847db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="-207">
+              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,52 +34,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js">
+        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreateQuestionnaire.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreateQuestionnaire.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="78" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -105,10 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Action/SaveQuestionnaireAction/saveQuestionnaireAction.js" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreatedAnswer/ChangeFullAnswerInput/ChangeFullAnswerInput.js" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/Results/Results.js" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/MyQuestionnaire/QuestionnaireShort/QuestionnaireShort.js" />
         <option value="$PROJECT_DIR$/src/Component/UI/Questionnaire/Answer/AddAnswer/AddAnswer.js" />
         <option value="$PROJECT_DIR$/src/Action/AddAnswerAction/addAnswerAction.js" />
         <option value="$PROJECT_DIR$/src/Component/UserPanel/Results/ResultQuestionnaire/SimpleQuestion/SimpleQuestion.js" />
@@ -130,16 +87,13 @@
         <option value="$PROJECT_DIR$/src/Component/Logout/logout.js" />
         <option value="$PROJECT_DIR$/src/Component/Logout/Logout.js" />
         <option value="$PROJECT_DIR$/src/Component/UI/Button/button.css" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js" />
         <option value="$PROJECT_DIR$/src/Component/UI/Input/input.css" />
         <option value="$PROJECT_DIR$/src/Component/UI/ErrorText/ErrorText.css" />
         <option value="$PROJECT_DIR$/src/Component/Login/login.css" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css" />
         <option value="$PROJECT_DIR$/src/Component/UserPanel/Results/Results.css" />
         <option value="$PROJECT_DIR$/src/Component/Landing/landing.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Component/Questionnaire/ResolveQuestionnaire.css" />
-        <option value="$PROJECT_DIR$/src/Reducer/combineReducers.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Reducer/QuestionnaireReducer/questionnaireReducer.js" />
         <option value="$PROJECT_DIR$/src/Component/Questionnaire/PresentingQuestion/PresentingQuestion.css" />
@@ -153,9 +107,16 @@
         <option value="$PROJECT_DIR$/src/Component/Questionnaire/Questionnaire.css" />
         <option value="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css" />
         <option value="$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.js" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js" />
-        <option value="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js" />
         <option value="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css" />
+        <option value="$PROJECT_DIR$/src/Action/ChangeUserAction/changeFullQuestionnaireAction.js" />
+        <option value="$PROJECT_DIR$/src/Reducer/ChangeUserReducer/changeQuestionnaireFullReducer.js" />
+        <option value="$PROJECT_DIR$/src/Reducer/ChangeUserReducer/changeUserReducer.js" />
+        <option value="$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js" />
+        <option value="$PROJECT_DIR$/src/Action/ChangeUserAction/changeUserAction.js" />
+        <option value="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css" />
+        <option value="$PROJECT_DIR$/src/Reducer/combineReducers.js" />
+        <option value="$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js" />
+        <option value="$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js" />
       </list>
     </option>
   </component>
@@ -192,7 +153,20 @@
               <item name="frontend-questionnow" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-questionnow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-questionnow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-questionnow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-questionnow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-questionnow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Landing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-questionnow" type="b2602c69:ProjectViewProjectNode" />
@@ -215,14 +189,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Component" type="462c0819:PsiDirectoryNode" />
               <item name="UserPanel" type="462c0819:PsiDirectoryNode" />
-              <item name="MyAccount" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +204,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Reducer/SaveQuestionnaireReducer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Reducer/ChangeUserReducer" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -241,18 +215,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Reducer\ChangeUserReducer" />
+      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Action\ChangeUserAction" />
+      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Reducer\SaveQuestionnaireReducer" />
+      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\UserPanel\CreateQuestionnaire\CreatedAnswer" />
+      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Reducer\AddQuestionReducer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\Register" />
       <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\UI\ErrorText" />
       <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\UI\Image" />
       <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\Landing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Reducer\SaveQuestionnaireReducer" />
-      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\UserPanel\CreateQuestionnaire\CreatedAnswer" />
-      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Reducer\AddQuestionReducer" />
-      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Action\AddQuestionAction" />
-      <recent name="C:\Users\user\Documents\frontend-questionnow\src\Component\UI\ChangeInput" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,7 +280,8 @@
       <workItem from="1606029271501" duration="5250000" />
       <workItem from="1606044113969" duration="9980000" />
       <workItem from="1606115138706" duration="15179000" />
-      <workItem from="1606136063103" duration="2890000" />
+      <workItem from="1606136063103" duration="3584000" />
+      <workItem from="1606839801587" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1604905405912</created>
@@ -399,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606134680889</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="View with account settings">
+      <created>1606139075231</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606139075231</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212419000" />
+    <option name="totallyTimeSpent" value="214842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -492,7 +474,8 @@
     <MESSAGE value="Created creating questionnaire" />
     <MESSAGE value="Result view without graph" />
     <MESSAGE value="Created questionnaire view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created questionnaire view" />
+    <MESSAGE value="View with account settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="View with account settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,30 +493,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Results/ResultQuestionnaire/ResultQuestionnaire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="39" column="51" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Results/ResultQuestionnaire/ResultQuestionnaire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Results/ResultQuestionnaire/SimpleQuestion/SimpleQuestion.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -615,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/UI/LogoText/logoText.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -646,34 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Landing/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reducer/QuestionnaireShortReducer/questionnaireReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reducer/combineReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,33 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Landing/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -877,10 +775,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreateQuestionnaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreateQuestionnaire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" column="78" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="78" />
+        <state relative-caret-position="1122">
+          <caret line="73" column="78" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/FullQuestionnaire/FullQuestionnaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Landing/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Landing/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/UserPanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Action/ChangeUserAction/changeUserAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reducer/ChangeUserReducer/changeUserReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reducer/combineReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Const/const.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/Navigation/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -889,25 +869,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/CreateQuestionnaire/CreateQuestionnaire.css">
+    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/UserPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/UserPanel/MyAccount/MyAccount.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="-207">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
