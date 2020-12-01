@@ -5,7 +5,6 @@ const initialState =
     }
 
 const questionnaireReducer = (state = initialState, action) => {
-    console.log("jestem w reducerze")
     switch (action.type) {
         case 'QUESTIONNAIRE_SUCCESS':
             return {

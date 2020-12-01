@@ -41,3 +41,7 @@ margin-top: 5rem;
 .WelcomeUser{
     font-family: 'Lobster', cursive;
 }
+
+.WelcomeUser h2{
+    font-size: 3rem;
+}

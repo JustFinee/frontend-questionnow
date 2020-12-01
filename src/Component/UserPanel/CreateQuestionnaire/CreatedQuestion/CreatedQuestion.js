@@ -36,6 +36,7 @@ const CreatedQuestion = (props) => {
 
 
     const mappedAnswers = props.answerList.map(answer => <CreatedAnswer
+        key={answer.answerNumber}
         answerNumber={answer.answerNumber}
         value={answer.value}
         nextQuestionNumber={answer.nextQuestionNumber}

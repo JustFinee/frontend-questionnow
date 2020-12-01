@@ -15,7 +15,6 @@ import ResultQuestionnaire from "./Results/ResultQuestionnaire/ResultQuestionnai
 const UserPanel = (props) => {
     const userName = useSelector(state => state.login.userName);
     const dispatch = useDispatch();
-
     const logOut = (e) => {
         e.preventDefault();
         dispatch(logout());

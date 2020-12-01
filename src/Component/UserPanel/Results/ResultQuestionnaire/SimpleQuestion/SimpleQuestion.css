@@ -9,6 +9,7 @@
 .PieChart{
     display: flex;
     justify-content: center;
+    margin-top: -2rem;
     align-items: center;
     width: 50%;
 }
