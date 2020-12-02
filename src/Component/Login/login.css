@@ -42,3 +42,28 @@ a{
 a:hover{
     color: #585858;
 }
+
+@media (max-width: 1100px) {
+
+    .LoginForm h3{
+        font-size: 0.8rem;
+        width: 50%;
+        text-align: center;
+    }
+
+    .LoginForm h2{
+        margin-top: 5rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .LoginForm h3{
+        font-size: 0.8rem;
+        width: 80%;
+        text-align: center;
+    }
+
+
+}

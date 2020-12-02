@@ -7,20 +7,21 @@
 }
 
 .CreateQuestionnaireStart{
-    letter-spacing: 0.5rem;
+    font-size: 3rem !important;
+    letter-spacing: 0.3rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .CreateQuestionnaire h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 2rem;
 
 }
 
 .QuestionnaireTittle h1{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
+
 }
 
 .CreatedQuestionnaire {
@@ -87,4 +88,60 @@
 /* Handle on hover */
 .CreatedQuestionnaire::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+@media (max-width: 1100px) {
+
+
+    .CreateQuestionnaire h1 {
+        font-size: 1.5rem;
+    }
+    .CreateQuestionnaireStart{
+        font-size: 2rem !important;
+    }
+
+    .CreatedQuestionnaire {
+        min-width:90%;
+
+    }
+
+    .SaveQuestionnaire{
+        font-size: 1rem;
+    }
+    .AddQuestion {
+        font-size: 0.9rem;
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    .CreateQuestionnaire {
+       overflow: auto;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .CreateQuestionnaire h1 {
+        font-size: 1rem;
+    }
+    .CreateQuestionnaireStart{
+        font-size: 1.2rem !important;
+    }
+
+    .CreatedQuestionnaire {
+        min-width:90%;
+
+    }
+
+    .SaveQuestionnaire{
+        font-size: 0.8rem;
+        width: 60%;
+    }
+    .AddQuestion {
+        font-size: 0.8rem;
+        width: 50%;
+
+    }
 }

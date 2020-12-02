@@ -7,4 +7,14 @@
 
 }
 
+@media (max-width: 800px) {
+    .Nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+}
+
 

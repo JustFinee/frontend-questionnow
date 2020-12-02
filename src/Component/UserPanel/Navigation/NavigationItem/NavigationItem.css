@@ -35,3 +35,40 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 1100px) {
+
+    .NavItem{
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .NavItem{
+        padding: 1rem;
+        width: 5rem;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 0;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .NavItem{
+        padding: 0;
+        width: 5.5rem;
+        border-radius: 10px;
+        font-size: 0.6rem;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+}

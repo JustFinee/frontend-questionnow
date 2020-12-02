@@ -13,3 +13,19 @@
     align-items: center;
     width: 50%;
 }
+
+@media (max-width: 1100px) {
+
+    .SimpleQuestion{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .SimpleQuestion{
+        font-size: 1rem;
+    }
+
+}

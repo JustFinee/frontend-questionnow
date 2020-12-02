@@ -36,4 +36,30 @@
 
 }
 
+@media (max-width: 1100px) {
+    .Big{
+        width: 60%;
+        height: 0.3rem;
+        font-size: 0.6rem;
+    }
+
+    .Small{
+        height: 0.3rem;
+        font-size: 0.6rem;
+    }
+
+    .AddQuestionModal label{
+         font-size: 1rem;
+     }
+
+    .AddQuestionModal{
+        margin-bottom: 0;
+    }
+    .InModal{
+        width: 30%;
+
+    }
+}
+
+
 

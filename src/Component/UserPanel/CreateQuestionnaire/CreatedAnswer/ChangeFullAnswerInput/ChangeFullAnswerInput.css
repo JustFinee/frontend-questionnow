@@ -34,3 +34,13 @@
     margin-bottom: 1rem;
 
 }
+
+@media (max-width: 500px) {
+    .ChangingFullAnswer button {
+        width: 50%;
+        padding: 0.3rem;
+        font-size: 0.7rem;
+
+
+    }
+}

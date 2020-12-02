@@ -41,3 +41,30 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
+
+@media (max-width: 800px) {
+    .UserPanel {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .Landing{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .Image{
+        display: none;
+    }
+
+    .LoginRegister {
+        border-radius: 25px 25px 10px 10px;
+        background-color: rgb(208, 219, 221);
+        grid-column: 1/9;
+        grid-row: 1/9;
+        display: grid;
+        position: relative;
+    }
+
+
+}

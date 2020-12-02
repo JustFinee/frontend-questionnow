@@ -16,3 +16,23 @@
     font-size: 1rem;
     margin-left: 1rem;
 }
+
+@media (max-width: 1100px) {
+
+    .SimpleAnswer p{
+        font-size: 1rem;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .SimpleAnswer {
+        font-size: 0.9rem;
+    }
+    .SimpleAnswer p{
+        font-size: 0.8rem;
+    }
+
+
+}

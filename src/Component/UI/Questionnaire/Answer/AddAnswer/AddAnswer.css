@@ -36,4 +36,22 @@
 
 }
 
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 800px) {
+
+    .AddAnswerModal label{
+        font-size: 1rem;
+        width: 60%;
+
+    }
+
+    .AddAnswerModal h2{
+        font-size: 1.2rem;
+
+    }
+
+}
 

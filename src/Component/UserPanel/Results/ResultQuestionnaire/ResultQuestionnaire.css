@@ -43,3 +43,26 @@
 .SimpleQuestions::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+@media (max-width: 1100px) {
+
+    .SimpleTittle{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+  .ResultQuestionnaire{
+      overflow: auto;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+    .SimpleTittle{
+        font-size: 1.2rem;
+    }
+
+}

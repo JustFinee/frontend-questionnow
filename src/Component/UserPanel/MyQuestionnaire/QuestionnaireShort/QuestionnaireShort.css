@@ -24,3 +24,18 @@
     background-color: rgb(85, 130, 149);
     color: white;
 }
+
+@media (max-width: 1100px) {
+    .QuestionnaireShort {
+        font-size: 1.3rem;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .QuestionnaireShort {
+        font-size: 1rem;
+        padding: 0.5rem;
+
+    }
+}

@@ -45,3 +45,14 @@
     margin: 0;
     margin-left: 3rem;
 }
+
+@media (max-width: 1100px) {
+    .AnswerContent{
+
+        font-size: 0.9rem;
+    }
+
+    .AnswerData{
+        font-size: 0.8rem;
+    }
+}

@@ -83,3 +83,32 @@
 .QuestionData {
     margin-left: 2rem;
 }
+
+@media (max-width: 1100px) {
+    .Question{
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+
+    .QuestionData {
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+
+    .AddAnswerButton {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 500px) {
+    .AnswerWithAddButton{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AddAnswerButton {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        width: 100%;
+
+    }
+}

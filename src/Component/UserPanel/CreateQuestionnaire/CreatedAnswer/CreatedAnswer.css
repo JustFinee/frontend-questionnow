@@ -28,3 +28,13 @@
     text-decoration: underline;
     letter-spacing: 0;
 }
+
+
+
+@media (max-width: 1100px) {
+
+
+    .AnswerCreated p {
+        font-size: 1rem
+    }
+}

@@ -46,3 +46,11 @@
 .TheEnd h3 {
     color: rgb(61, 90, 102);
 }
+
+@media (max-width: 1100px) {
+
+    .QuestionnaireContent h1{
+       font-size: 2rem;
+    }
+
+}
