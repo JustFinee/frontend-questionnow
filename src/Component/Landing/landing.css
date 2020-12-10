@@ -68,3 +68,19 @@
 
 
 }
+@media (max-width: 800px) {
+
+    .Landing {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .Landing {
+        width: 95%;
+    }
+
+
+}
+
