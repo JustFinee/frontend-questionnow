@@ -15,10 +15,10 @@ Whole application is built with only functional components. Internal state of co
 All routes and their security is implemented with ReactRouterDOM. Application sends request for backend layer via axios and gets JSON response. 
 
 ## Redux
-Main state of whole application is managed by Redux.
+Global state of whole application is managed by Redux.
 
 ## Setup
-$ cd frontend-questionnow
-$ npm start
+$ cd frontend-questionnow  
+$ npm start  
 
 Server starts on localhost:3000
