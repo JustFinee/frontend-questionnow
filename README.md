@@ -19,6 +19,7 @@ Global state of whole application is managed by Redux.
 
 ## Setup
 $ cd frontend-questionnow  
+$ npm install
 $ npm start  
 
 Server starts on localhost:3000
