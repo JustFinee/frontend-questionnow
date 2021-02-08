@@ -11,6 +11,11 @@
 # production
 /build
 
+.idea
+*.iws
+*.iml
+*.ipr
+
 # misc
 .DS_Store
 .env.local
